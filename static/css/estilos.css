@@ -1,0 +1,133 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	padding: 0;
+	margin: 0;	
+}
+
+.MainMenu{
+	background: #f4f4f4;
+	height: 3em;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+	text-align: center;
+	border-style: solid;
+    border-color: transparent transparent #ddd;
+    border-width: 0.12em;
+}
+
+.MainMenu-logoContainer{
+	display: inline-block;
+	margin: 0;
+	line-height: 3em;
+	position: relative;
+	top: 0.45em;
+	margin-right: 4em;
+}
+
+.MainMenu-logo{
+width: 10em;
+}
+
+.MainMenu-list{
+	display: inline-block;
+	margin: 0;	
+	padding: 0;
+}
+
+.MainMenu-item{
+	display: inline-block;
+	margin-right: 4em;
+}
+
+.MainMenu-link{
+	color: #4285f4;
+	text-decoration: none;
+	line-height: 3em;
+}
+
+
+.MainMenu-button{
+	color: #fff;
+	display: inline-block;
+	background: #f02323;
+	border: none;
+	padding: 0.5em 0.7em;
+	border-radius: 0.5em;
+}
+
+.SocialBar{
+	text-align: center;
+	background-color: white;
+	border-style: solid;
+    border-color: white white #ddd;
+    border-width: 0.12em;
+	padding: 1em;
+	margin-top: 3em;		
+}
+
+.SocialBar-text{
+	color: grey;
+	font-size: 0.9em;
+	margin: 0;
+}
+
+.Body{
+	padding: 1em;
+}
+
+/*.Footer{
+	background: #f02323;
+	padding: 0 1em;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	color: white;
+	font-size: 20px;
+}
+
+.Footer-text{
+	display: inline-block;
+	margin-right: 10em;
+}
+
+.Footer-buttonFacebook{
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+	background: #3b5998;
+	border: none;
+	padding: 0.5em 1em;
+	border-radius: 0.5em;
+	margin-right: 1.5em;
+}
+.Footer-buttonTwitter{
+	color: #fff;
+	font-size: 20px;
+	display: inline-block;
+	background: #33ccff;
+	border: none;
+	padding: 0.5em 1em;
+	border-radius: 0.5em;
+}*/
+
+.Tico{
+	color: red;
+}
+
+.ColorFacebook{
+	color: blue;
+	font-size: 1.2em;
+}
+
+.ColorTwitter{
+	color: #33ccff;
+	font-size: 1.2em;
+}
