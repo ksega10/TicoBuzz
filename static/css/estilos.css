@@ -1,5 +1,5 @@
 body{
-	margin: 0;
+	margin: 0 97px;
 	padding: 0;
 }
 
@@ -78,8 +78,49 @@ width: 10em;
 	margin: 0;
 }
 
-.Body{
+.Body-left{
 	padding: 1em;
+	max-width: 50em;
+	text-align: center;
+}
+
+.Body-mainImageContainer{
+	margin: 1em 3em;
+	width: 30em;
+	padding: 0em;
+	position: relative;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.Body-mainImage{
+	margin: 0 0;
+	padding: 0;
+	height: 20em;
+	width: 100%;
+	position: relative;
+	left: 0;
+	right: 0;
+
+}
+
+.Body-mainImageDescription{
+	color: white;
+	background: red;
+	font-weight: bold;
+	font-size: 1.4em;
+	max-width: 22em;
+	position: absolute;
+	bottom: 0.7em;
+	left: 0.7em;
+	padding: 0 1em;
+	background: rgba(20, 20, 20, .8);
+	text-align: left;
+}
+
+.Body-articles{
+	margin-top: 3em;
 }
 
 /*.Footer{
